@@ -1,46 +1,50 @@
 export const projects = [
-  {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+	{
+		title: "SnowHill",
+		description:
+			"Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called SnowHill and it is a simple app that allows users to search and post ski resorts and slopes around the globe.",
+		image: "/images/SnowHill.png",
+		tags: ["Mongo", "Express", "React", "Node", "Javascript"],
+		source: "https://snowhill.netlify.app/",
+		visit: "https://github.com/Luisfdearaujo/carlive-client",
+		id: 0,
+	},
+	{
+		title: "Carlive",
+		description: "Small App to display car information from an API",
+		image: "/images/Carlive.png",
+		tags: ["React", "Node", "Javascript"],
+		source: "https://carllive.netlify.app/",
+		visit: "https://github.com/Luisfdearaujo",
+		id: 1,
+	},
+	{
+		title: "In-Life",
+		description:
+			"This app is a beta version of a CRM software for In-Life Ambassadors to manage their clients and bookings.",
+		image: "/images/In-Life.png",
+		tags: ["Noje.js", "Express.js", "Handlebars", "CSS", "Javascript"],
+		source: "https://in-life.herokuapp.com/",
+		visit: "https://github.com/Luisfdearaujo/In-Life",
+		id: 2,
+	},
+	{
+		title: "Surfscape",
+		description:
+			"This project is a front-end app game design for kids which its main goal is to score as many points as possible by keeping the surfer alive avoiding the sharks.",
+		image: "/images/Surfscape.png",
+		tags: ["HTML", "CSS", "Javscript"],
+		source: "https://luisfdearaujo.github.io/SurfScape/",
+		visit: "https://github.com/Luisfdearaujo/SurfScape",
+		id: 3,
+	},
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+	{ year: 2020, text: "Started my journey" },
+	{ year: 2021, text: "Ironhack Fullstack Web Development Bootcamp" },
+	{
+		year: 2022,
+		text: "Start working at Build Up Labs as a Fullstack Web Developer ",
+	},
 ];
